@@ -28,7 +28,7 @@ function App () {
   }
 
   const handleDelete = (email: string) => {
-    const filteredUsers = users.filter((user) => user.email !== email)
+    const filteredUsers: User[] = users.filter((user: User) => user.email !== email)
     setUsers(filteredUsers)
   }
 
@@ -115,7 +115,7 @@ function App () {
 
       </header>
       <main>
-        <UsersList changeSorting={handleChangeSort} deleteUser={handleDelete} showColors={showColors} users={sortedUsers} />
+        <UsersList changeSorting={handleChangeSort} deleteUser={handleDelete} showColors={showColors} users={sortedUsers} /> 
       </main>
     </div>
   )
