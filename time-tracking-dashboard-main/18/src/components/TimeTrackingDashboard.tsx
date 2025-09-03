@@ -4,7 +4,7 @@ import { ActivityCard } from './ActivityCard';
 import { LoadingScreen, ErrorScreen, EmptyState } from './UI';
 import type { Period } from '../types';
 import { useTimeTrackingData } from '../hooks/useTrackingData';
-import { ProfileCard } from './ProFileCard';
+import { ProfileCard } from './ProfileCard';
 
 export const TimeTrackingDashboard: React.FC = () => {
   const { data, loading, error } = useTimeTrackingData();
