@@ -28,7 +28,6 @@ export interface NewTaskForm {
   priority: Priority;
 }
 
-// Props interfaces for components
 export interface TaskCardProps {
   task: Task;
   columnId: string;

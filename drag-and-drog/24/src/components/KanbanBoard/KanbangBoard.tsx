@@ -38,7 +38,6 @@ export const KanbanBoard: React.FC = () => {
   return (
     <main className="min-h-screen bg-gradient-to-br from-gray-900 via-slate-900 to-gray-800 p-6">
       <div className="max-w-7xl mx-auto">
-        {/* Header */}
         <header className="mb-8 text-center">
           <h1 className="text-5xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">
             ⚡ Kanban Board
@@ -89,7 +88,6 @@ export const KanbanBoard: React.FC = () => {
           ))}
         </section>
 
-        {/* Footer with instructions */}
         <footer className="mt-12 text-center">
           <div className="inline-flex items-center space-x-6 text-gray-400 text-sm">
             <div className="flex items-center space-x-2">

@@ -44,7 +44,6 @@ export default function App() {
       })
       .finally(() => {
         setLoading(false);
-        // Después de la búsqueda, ponemos foco en el input para nueva búsqueda
         inputRef.current?.focus();
       });
   }, [username]); // Dependencia username porque lo usamos en fetch
